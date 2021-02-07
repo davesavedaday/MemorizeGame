@@ -72,17 +72,13 @@
 		9E72DBC725B7538B001AF03D /* MemorizeCardGame */ = {
 			isa = PBXGroup;
 			children = (
+				9EDCD34825D00991006E68C2 /* ViewModel */,
 				9E72DBC825B7538B001AF03D /* AppDelegate.swift */,
+				9EDCD34725D0095D006E68C2 /* Extensions */,
+				9EDCD34625D0093E006E68C2 /* View  */,
 				9E1B5E6225BA94ED009CC083 /* Pie.swift */,
 				9E72DBCA25B7538B001AF03D /* SceneDelegate.swift */,
-				9E72DBCC25B7538B001AF03D /* EmojiMemoryGameView.swift */,
-				9E72DBDD25B753B2001AF03D /* MemoryGame.swift */,
-				9E1B5E5C25B9C804009CC083 /* Array + Only.swift */,
-				9E72DBE825B83C63001AF03D /* Grid.swift */,
-				9E72DBEB25B8415A001AF03D /* GridLayout.swift */,
-				9E72DBE025B753CE001AF03D /* EmojiMemoryGame.swift */,
-				9E1B5E5F25B9CE98009CC083 /* Themes.swift */,
-				9E72DBEE25B84870001AF03D /* Array+Identifiable.swift */,
+				9EDCD34925D009A7006E68C2 /* Model */,
 				9E72DBCE25B7538E001AF03D /* Assets.xcassets */,
 				9E72DBD325B7538E001AF03D /* LaunchScreen.storyboard */,
 				9E72DBD625B7538E001AF03D /* Info.plist */,
@@ -97,6 +93,42 @@
 				9E72DBD125B7538E001AF03D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9EDCD34625D0093E006E68C2 /* View  */ = {
+			isa = PBXGroup;
+			children = (
+				9E72DBE825B83C63001AF03D /* Grid.swift */,
+				9E72DBEB25B8415A001AF03D /* GridLayout.swift */,
+				9E72DBCC25B7538B001AF03D /* EmojiMemoryGameView.swift */,
+			);
+			path = "View ";
+			sourceTree = "<group>";
+		};
+		9EDCD34725D0095D006E68C2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9E1B5E5C25B9C804009CC083 /* Array + Only.swift */,
+				9E72DBEE25B84870001AF03D /* Array+Identifiable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9EDCD34825D00991006E68C2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9E1B5E5F25B9CE98009CC083 /* Themes.swift */,
+				9E72DBE025B753CE001AF03D /* EmojiMemoryGame.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9EDCD34925D009A7006E68C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E72DBDD25B753B2001AF03D /* MemoryGame.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
